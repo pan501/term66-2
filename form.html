@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Input Form</h1>
-    <form action="#">
+    <form action="submti.php"metod="post">
         <table>
         <tr>
             <td><label for="username">Username: </label></td>
@@ -33,20 +33,20 @@
             </td>
             </tr>
             <tr>
-              <td><label for="role">Pleas spcify your role</label></td> 
+              <td><label for="role">Please spcify your role:</label></td> 
               <td>
-              <input type="radio" name="role" id="admin">admin<br>
-              <input type="radio" name="role" id="engineer">engineer<by>
-              <input type="radio" name="role" id="manager">manager<by>
-              <input type="radio" name="role" id="guest">guert
+              <input type="radio" name="role" id="admin" value="Admin">Admin<br>
+              <input type="radio" name="role" id="engineer" value="Enguineer">Engineer<by>
+              <input type="radio" name="role" id="manager" value="Manager">Manager<by>
+              <input type="radio" name="role" id="guest"value="Guert">Guert
               </td>
             </tr>
             <tr>
               <td><label for="sign">Single Sign-on to the following: </label></td>
               <td>
-                <input type="checkbox" name="sign" id="mail">mail<br>
-                <input type="checkbox" name="sign" id="payroll">payroll<dr>
-                <input type="checkbox" name="sign" id="selfservice">self-service<br>
+                <input type="checkbox" name="sign" id="mail"value="Mail">Mail<br>
+                <input type="checkbox" name="sign" id="payroll"value="Payroll">Payroll<dr>
+                <input type="checkbox" name="sign" id="selfservice"value="self-service">self-service<br>
               </td>
             </tr>
             <tr>
